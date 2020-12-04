@@ -1,0 +1,52 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches-ignore:
+      - gh-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '^12.13.1'
+
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies and Puppeteer
+        run: |
+          npm ci
+          npm i puppeteer --no-save
+
+      - name: Build Marp slide deck
+        id: build_slides
+        run: |
+          CHROME_PATH=$(node .puppeteer.js) npm run build
+          touch ./dist/.nojekyll
+          echo "::set-output name=target_folder::${github_ref/refs\/heads\//}"
+        env:
+          URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
+          LANG: en-US
+          github_ref: ${{ github.ref }}
+
+
+      - name: Deploy to GitHub pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
+          TARGET_FOLDER: ${{ steps.build_slides.outputs.target_folder }}
