@@ -1,8 +1,7 @@
 ---
 marp: true
-title: Building you own Keyboard
-description: Why and how?
-theme: itlt
+title: My journey as a Project Manager
+description: or how I learned to stop worrying about deadlines
 paginate: true
 _paginate: false
 footer: CC BY-NC-SA 4.0
@@ -14,234 +13,484 @@ footer: CC BY-NC-SA 4.0
     }
 </style>
 
-# Building your own keyboard
+
+# My journey as a Project Manager
+
+## *or how I learned to stop worrying about deadlines*.
 
 ### Pedro Ferreira
 
+---
+# Who am I?
+
+* 36 years old
+* Portuguese 🇵🇹
+* Software Engineer 👨🏻‍💻
+* Working at CERN since 2007
+
+---
+# Structure of the Talk
+
+* What is CERN?
+* My experience as a Manager:
+  * Indico - Project Manager (2014 - 2020)
+  * CS3MESH4EOSC (2020 -)
+* Some thoughts
+
+---
+# What is CERN?
+
+It means, *obviously*
+
+## European Organization for Nuclear Research
+
+(formerly known as **C**onseil **E**uropéen pour la **R**echerche **N**ucléaire)
+
+or, in a more understandable way,
+
+# European Laboratory for Particle Physics
+
+![bg right](assets/cern.svg)
+
+---
+
+![bg](assets/cms_2.jpg)
+![bg](assets/cms_1.jpg)
+
+<!-- _footer: © Copyright CERN --->
+
 <style scoped>
-h3 {
-    color: #aaa;
-    font-size: 0.8em;
-    font-weight: normal;
-}
-img {
-    vertical-align: middle;
-}
-</style>
-
-
----
-# Why?
-
----
-<!-- _footer: '' -->
-## You can have that key you always dreamed of
-
-![](assets/anykey.jpg)
-
----
-<!-- _footer: '' -->
-## You can have the layout you<br/> always dreamed of
-
-![bg right](assets/sphere-kb.jpg)
-
----
-<!-- _footer: '' -->
-## It's the ultimate hacker<br/> fashion accessory
-
-![bg right](assets/hackerman.jpg)
-
----
-## It's (relatively) easy
-
-![bg right](assets/level.svg)
-
----
-<!-- _footer: '' -->
-## It's fun!
-
-![bg right](assets/fun.png)
-
----
-<style scoped>
-em {
-  color: #ccc;
+footer {
+    color: white;
 }
 </style>
 
-# Let's get started!
+---
 
-*In a record slides/min*
+<iframe scrolling="no"  src="https://videos.cern.ch/record/2020780/embed" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+
+<!-- _footer: © Copyright CERN --->
 
 ---
-## Step 1
-Pick a design
 
-<!-- _backgroundImage: url("assets/models.png") -->
-<!-- _backgroundSize: 50% -->
-<!-- _backgroundPosition: right -->
+![bg](assets/next_1.jpg)
+![bg](assets/cc_2.jpg)
 
-[BenRoe/awesome-mechanical-keyboard](https://github.com/BenRoe/awesome-mechanical-keyboard)
+<!-- _footer: © Copyright CERN --->
 
 ---
-<!-- _footer: '' -->
+![bg left 90%](assets/indico_main_page.png)
 
-## Dactyl
-(Matthew Adereth)
+### ![width:200px](assets/indico.svg)
+
+ - **Event Management** System
+ - Core Developed at **CERN**
+ - **Collaborative effort** - Open Source
+ - \> **70 developers** over the years
+ - \> **150 servers** world wide
+
+---
+
+![bg left 50%](assets/vase.svg)
+
+# History
+
+ - **1999** - **CDS Agenda**
+ - **2002** - **EU Project**
+ - **2004** - First **Conference**
+ - **2007** - **Room Booking**
+ - **2009** - **Video Conferencing**
+ - **2013** - First **Workshop**
+ - **2015** - **UNOG** starts using it
+ - **2017** - Indico 2.0 (**rewrite**)
+ - **2021** - Indico 3.0 (Python 3)
 
 <style scoped>
-  p {
-    font-size: 0.5em;
-  }
-</style>
-
-![bg right](assets/dactyl.png)
-
-[![width:300px](https://img.youtube.com/vi/uk3A41U0iO4/0.jpg)](https://www.youtube.com/watch?v=uk3A41U0iO4)
-
-https://www.youtube.com/watch?v=uk3A41U0iO4
-
----
-<!-- _footer: '' -->
-
-## Variations
-
-![width:400px](assets/manuform.jpg) ![width:400px](assets/dactyl-cc.jpg)
-
----
-<!-- _footer: '' -->
-
-## Winner!
-
-![bg right](assets/dactyl-cc-half.jpg)
-
-> The dactyl-cc keyboard takes a different approach to the structure of the code (and language) as well as being more similar in feel to the Kinesis Advantage 2.
-
-https://github.com/mjohns/dactyl-cc
-
----
-<!-- _footer: '' -->
-
-## Step 2: The chassis
-
-![width:400px](assets/dactyl-cc-thing.png) ![width:400px](assets/craftcloud.png)
-![width:400px](assets/lily58-pcb.jpg)
-
----
-
-<video autoplay>
-  <source src="assets/timelapse.mp4" type="video/mp4">
-</video>
-
----
-![bg width:800px](assets/kinesis-dactyl-cmp.jpg)
-
----
-## Step 3: The parts
-
-![width:200px](assets/chinalarger.jpg)
-![bg right height:90%](assets/bom.png)
-
----
-<!-- _footer: '' -->
-
-![bg width:400px](assets/waiting.jpg)
-
----
-## Step 4: Let's solder!
-
-![bg right height:90%](assets/soldering1.jpg)
-
----
-<style scoped>
-  footer {
-    color: #fff;
-  }
-</style>
-
-![bg](assets/no-caps.jpg)
-
----
-## Step 5: Keycaps
-
----
-
-![bg height:90%](assets/kle.png)
-
----
-<!-- _footer: '' -->
-<style scoped>
-  p {
-      font-size: 0.5em;
-    }
-</style>
-
-![width:700px](assets/keycaps_wasd.png)
-
-https://deskthority.net/wiki/Kinesis_Contoured#Keycaps
-
----
-
-![bg width:90%](assets/wasd-order.png)
-
----
-
-
-![bg](assets/final-kb.jpg)
-
----
-<style scoped>
-em {
-  color: #ccc;
-}
-</style>
-## Step 6: Firmware
-
-![bg right](assets/qmk_console.png)
-![width:300px](assets/qmk.png)
-https://qmk.fm
-
-https://git.io/JILZk
-
-*Am I running late by now? It will be a miracle if I'm not.*
-
----
-<style scoped>
-em {
-  color: #ccc;
+section {
+    font-size: 1.7em;
 }
 </style>
 
-## Main takeaways
+---
 
-*I most certainly will be out of time by now. Just read them during the Q&A!*
+# Philosophy
 
- * Building your own keyboard is **not that hard**™;
- * It's also not that expensive (~200 CHF)
- * Chassis: use professional printing when possible;
- * Next time: use STM32 instead of Teensy? (cheaper, better)
- * Keycaps are expensive and hard to get in small amounts (blanks?);
- * Details matter - e.g. nuts, rubber feet...
- * **Learn from the mistakes of others!**
- * https://codimd.web.cern.ch/QGS2Mj8hRCSxOcjlCrbbFw#
+ - "Agnostic" **core**
+ - **Plugins** 🧩
+ - **Themes** 🎨
+ - Developed **publicly**
+
+![bg left 80%](assets/opensource.svg)
 
 ---
-<style scoped>
-em {
-  color: #ccc;
-}
-</style>
 
-## Thanks!
-*Look ma, no time!*
+![bg right](assets/github_screenshot.png)
+
+# Context
+
+ * Small team, significant turnover
+ * Team also does support and bug fixing
+ * Development happens a lot around GitHub (especially now!)
+ * Reliance on chat tools (even pre-COVID)
 
 ---
-## Credits
 
- * Artem Beliaikin (typewriter photo) (Public Domain);
- * Lcamtuf - "ANY key" (CC-BY-SA);
- * "Fun" - Helena Lopes, from Pexels ([license](https://www.pexels.com/license/));
- * Lea Tschierch - 3D printing timelapse video;
- * "Hackerman - Copyright ©2014, Kung Fury;
- * All project images are property of the authors (Dactyl, Planck, Corne, Lily58, Ergodox);
- * Dactly and Dactyl-Manuform images are licensed under CC-BY-SA 4.0 by the respective authors.
+# The Team
+
+![center width:700px](assets/indico_dev_timeline.png)
+
+---
+
+# The Portfolio
+
+![bg right](assets/portfolio.png)
+
+ * Indico (> 300K lines of code) + Plugins
+ * newdle (meeting scheduling)
+ * Flask libraries
+ * mereswine (community metrics)
+
+---
+
+# The Methodology
+
+![bg right 80%](assets/crystal_clear.png)
+
+ * It's... complicated
+     - not the methodology, the choice
+ * Kanban-based
+ * Elements from Crystal Clear
+ * Updated for the GitHub era
+
+---
+
+# The problem with "Agile"
+
+ * Typical "Agile methodologies" are tailored for **larger teams**
+ * Not conceived with GitHub and Slack/Mattermost (or Open Source!) in mind
+   - e.g. Scrum adds some **overhead** in meetings
+ * "Agile" should be about "**less process, more people**" - "enterprise Agile" seems to go the other way.
+
+---
+
+# Back to the fundamentals
+
+## Agile manifesto
+
+ * **Individuals and interactions** over processes and tools
+ * **Working software** over comprehensive documentation
+ * **Customer collaboration** over contract negotiation
+ * **Responding to change** over following a plan
+
+---
+
+# The Indico Software Development Methodology
+
+---
+
+## Typical Delivery cycle
+
+ * Collecting/prioritizing user stories (e.g. tickets)
+ * Creating Mockups
+ * Kanban-based development sprint (~2 months)
+ * Validation tests with users, iteration
+ * Public release
+ * Release Reflection Workshop
+   - Process is iterated upon
+
+![bg right](assets/mockup.png)
+
+---
+
+## The "task" cycle
+
+ * Developer takes task from the "TODO" list
+ * Sends PR once done (sometimes draft PR if it's too long), now "in review"
+ * PR is reviewed by at least two other people, iterated upon
+ * PR is merged into the development branch
+
+---
+
+![bg](assets/indico_kanban.png)
+
+---
+
+## Other elements
+
+![bg right](assets/ci.png)
+
+ * Pair programming (highly appreciated by developers!)
+ * Continuous Integration
+ * Automatic enforcement of code guidelines
+
+---
+
+## Evolution
+
+ * Phase 1 - "We can do it!"
+ * Phase 2 - "We'll do what we can"
+ * Phase 3 - Community-based Development
+
+___
+
+# Phase 1
+## We can do it!
+
+**Context (2014):** Gigantic DB migration  (technical debt payoff)
+
+ * \> 11 major releases in 3 years
+ * \> 10.000 individual commits
+ * 6167 changed files
+ * \> 800 Pull Requests
+
+![width:500px](assets/indico_gh_activity.png)
+
+---
+
+# Phase 1
+
+![bg right](assets/estimations.png)
+
+---
+
+# Phase 1
+
+![bg right](assets/estimations_2.png)
+
+ESTIMATE ALL THE THINGS!
+
+---
+
+# Phase 1
+## We can do it!
+
+... but we're not sure by when.
+
+---
+
+# Phase 2
+## "We'll do what we can"
+
+![bg right](assets/cern_dusk.png)
+
+---
+
+# Phase 2
+## "We'll do what we can"
+
+* Improve prioritization
+* More restricted set of "must-have" features
+* Deliver earlier, add the frosting later
+* Typically:
+  - First "bare-bones" release
+  - A cycle of smaller releases with bug fixes and "nice to have"
+
+---
+
+# Phase 3
+## Community-based Development
+
+---
+
+# Phase 3
+## Community-based Development
+
+* New stakeholders
+  - Signifcant increase in Open Source contributions
+  - Greater availability of funding for isolated developments
+  - UN enters the game in 2015
+* Need for a clearer medium-long-term roadmap
+* Need for a "constitution" of Indico
+
+---
+
+![bg 60%](assets/cs3mesh4eosc.png)
+
+---
+
+# CS3MESH4EOSC
+
+* **3-year** project
+  - Started **January 2020**
+* **13 partners** (including WWU!)
+* **~6M EUR**
+
+![bg right vertical](assets/project_site.png)
+![bg right vertical](assets/mesh_site.png)
+
+---
+
+# The Idea
+
+![bg right 80%](assets/sciencemesh.svg)
+
+ * **Decentralized** mesh of EFSS nodes
+ * Based on **Open Standards** and **Open Source**
+ * **Federated** environment for collaborative research
+ * **Application platform** for distributed collaboration
+
+---
+
+# My role
+
+ * WP1 (Management) Leader
+   - High-level management
+   - Ensuring implementation of Work Plan
+   - Interfacing between partners
+   - Communication with EC
+ * Technical Coordinator
+   - Ensuring technical WPs work together
+
+---
+
+# Differences (vs. Indico)
+
+ * Larger "team"
+ * Beyond CERN's borders
+ * Less direct contact with technology
+ * "Bureaucracy"
+ * Process is much more formalized
+ * Lots of Synchronization work
+   - Technical teams work in parallel
+
+---
+
+# The Methodology
+
+![bg right width:150%](assets/eu_flag.jpg)
+
+ * Framework imposed by the EC
+ * Work Packages, Tasks, Milestones and Deliverables
+ * Reviews (in this case only one, mid-Project)
+ * Plans
+   * Quality Assurance
+   * Data Management
+   * Risk Management
+   * Intellectual Property Rights
+
+---
+
+# Quality Assurance
+
+![bg right width:80%](assets/qap.png)
+
+ * Rules on **Project Meetings**
+   - when, where and with whom
+   - how they're documented
+ * **Collaborative tools**
+   - Mailing lists, document stores, Indico, Wiki...
+ * **Work Plan** Managament
+   - how it's set up, reviewed and executed
+ * **Deliverable** submission and reviewing
+ * **Decision making**
+
+---
+
+# Risk assessment
+
+* Risk assessment table
+   - Likelihood
+   - Severity
+   - Mitigation measures
+* e.g.
+    - *critical staff leaving*
+    - *user community interest drops*
+    - *Future lockdowns* (added 2020)
+* Reviewed periodically
+
+![bg right](assets/disaster.jpg)
+
+<!-- _footer: © Copyright CERN --->
+
+---
+# Data Management
+
+* Especially relevant in Projects where research data is collected
+  * *e.g. clinical trial data, surveys*
+* Compliance with GDPR
+* Software Products: privacy-first approach
+
+![bg right](assets/data.jpg)
+
+---
+
+# Intellectual Property
+
+* Copyright-protected or patentable
+  * **Background IP**: pre-existing, belonging to the partners
+  * **Foreground IP**: produced in the context the Project
+* Ownership and Licensing
+* Protection of Results
+
+![bg right](assets/patent.jpg)
+
+---
+
+# The Work Plan
+
+ * Managed on GitHub kanban (for convenience)
+ * Every 1st StC meeting of the month: review
+   -  "Snapshot" produced and circulated to members of the StC
+
+![bg right](assets/workplan_gh.png)
+
+---
+# Personal notes
+
+---
+# On Deadlines
+
+> And he, the said Wirz, still wickedly pursuing his evil purpose, did establish and cause to be designated within the prison enclosure containing said prisoners a "dead line," [...] [and he] instructed the prison guard stationed around the top of said stockade to fire upon and kill any of the prisoners aforesaid who might touch, fall upon, pass over or under [or] across the said "dead line"
+>
+> *"Trial of Henry Wirz," Report of the Secretary of War, Oct. 31, 1865*
+
+---
+# On Deadlines
+
+* Necessary evil
+* Safety > Quality > Production
+* Leave always some leeway
+* Sometimes they're worth failing
+
+---
+# Decision-making
+
+* Make informed decisions
+* You're a Manager not an Oracle
+* Proactively seek other people's opinion
+
+---
+# Building from the Foundations
+
+* "Baby steps"
+* Evolution >>> Revolution
+
+---
+# Saying "No"
+
+* Sometimes you have to be the killjoy
+* Look at the facts and ask those around you
+* Saying "no" is not necessarily selfish
+* You owe that to yourself and those who work with you
+
+---
+# Testing
+
+* Test early, test often
+* Test with real users
+* If it hasn't been tested by users, it's not production-ready
+
+---
+# Thank you!
+
+## @pferreir
+
+https://getindico.io
+https://cs3mesh4eosc.eu
+
+---
+# Credits
+
+ * ["Data" photo](https://www.pexels.com/photo/code-on-computer-screen-3861976/) by ThisIsEngineering from Pexels
+ * Crane accident image from the CERN media archives (Copyright CERN)
+ * All logos are property of the respective projects and mean no endorsement
